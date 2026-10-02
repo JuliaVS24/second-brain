@@ -3,7 +3,7 @@ title: AlpPick 2.0 market launch
 type: project
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
 tags: [project, hardware, launch]
 ---
 
@@ -20,6 +20,10 @@ New generation of [[alppick]].
 ## Decisions
 
 - 12 March 2026: **market launch in September 2026** (Source: [[2026-03-12-executive-board-minutes]])
+
+## Risks
+
+- Loss of focus: if AlpPick 2.0 arrives in the fall, it pulls attention away from service (as of 5 May 2026) (Source: [[2026-05-05-strategy-memo-service-first]]). See [[service-first-strategy]].
 
 ## Open points
 
