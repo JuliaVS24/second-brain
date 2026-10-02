@@ -39,4 +39,4 @@
 _(none yet)_
 
 ## Lint reports
-_(none yet)_
+- [[2026-10-02]] – Lint after 3 ingests: 3 high (AlpCare price, AlpPick 2.0 launch, Bergland compensation), passed deadlines, 3 raw files not ingested (updated 2026-10-02)
