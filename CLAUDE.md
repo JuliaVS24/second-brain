@@ -89,17 +89,20 @@ tags: [topic, topic]
 
 ### Workflow 1: Ingest
 
-**When** I write "Ingest `<file>`" or "Read `<file>` in" (or I paste text and say "Save this as a source and ingest it"),
+**When** I write "Ingest `<file>`", or I paste text and write "Save this as a source and ingest it" (then first save it under `raw/own/<YYYY-MM-DD>-<shortname>.md`),
 **Then:**
 
-1. If I paste text, first save it as a source under `raw/<topic>/<YYYY-MM-DD>-<shortname>.md`.
-2. Read the source completely.
-3. Write a source page in `wiki/sources/` with: summary (max. 5 sentences), key points as a list, people and organizations involved, open points.
-4. For each new person, organization, product, project and term, create a page, or update the existing one. First check in `_index.md` whether the page already exists.
-5. Link all pages with each other.
-6. Update `wiki/_index.md`.
-7. Append an entry to `wiki/_log.md`: date, "ingest", source, new and changed pages.
-8. Report to me in at most 8 lines: What is new? What has changed? What is unclear or contradictory?
+1. Read the source completely.
+2. Write the source page in `wiki/sources/`: summary (max. 5 sentences), key points, people, open points.
+3. Create or update one page per person, organization, product, project and important term. Check `_index.md` first.
+4. Link all pages.
+5. Update `wiki/_index.md` and `wiki/_log.md`.
+
+**Quality:** Every number with date and source. Contradictions flagged with `[!warning] Contradiction`, never resolved.
+
+**Done when:** `_index.md` lists every new page, `_log.md` has one entry, and I got a report of at most 8 lines (new / changed / unclear).
+
+**Never:** invent facts; change anything in `raw/`.
 
 ### Workflow 2: Query
 
@@ -117,13 +120,13 @@ tags: [topic, topic]
 **When** I write "Lint",
 **Then:**
 
-1. Look for contradictions between pages (numbers, dates, names, statements).
-2. Look for outdated statements (an older source says A, a newer one says B, the page still shows A).
-3. Look for orphaned pages (no incoming links) and missing links.
-4. Look for gaps (people or projects that are often mentioned but have no page).
-5. Write a report to `wiki/_lint/<YYYY-MM-DD>.md` with finding, severity (high/medium/low) and suggestion.
-6. Change nothing automatically. I decide what you fix.
-7. Append an entry to `wiki/_log.md`.
+1. Find numbers, dates and statements that differ between pages.
+2. Find figures that an older source gives and a newer source changed.
+3. Find pages without incoming links.
+4. Find people or projects that are mentioned often but have no page.
+5. Report as a table in `wiki/_lint/<YYYY-MM-DD>.md` with finding, pages, severity (high / medium / low) and suggestion.
+
+**Never:** fix anything on your own. Change nothing; I decide what gets fixed.
 
 ## 6. Boundaries (basic version)
 
