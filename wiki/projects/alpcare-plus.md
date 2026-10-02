@@ -3,7 +3,7 @@ title: AlpCare Plus
 type: project
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
 tags: [project, service, pricing]
 ---
 
@@ -36,6 +36,10 @@ Planned variant of [[alpcare]] with a guaranteed response time under 4 hours (So
 ## Open points
 
 - Whether CHF 1,900 was approved is not in the wiki.
+- As of 16 June 2026, according to [[sandra-koller]], the pricing question for AlpCare/AlpCare Plus "has not been decided yet" (Source: [[2026-06-18-email-thread-bergland]])
+
+> [!warning] Contradiction
+> The memo (5 May 2026) puts the guaranteed response time in AlpCare Plus at **CHF 1,900**. On 16 June 2026 [[jonas-weber]] offered [[bergland-logistik-ag]] "AlpCare with a guaranteed response time" at **CHF 1,450** (Source: [[2026-06-18-email-thread-bergland]]). Not resolved.
 
 > [!note] Uncertain
 > The minutes name Weber and Steiner for the pricing model (P-02); the memo names only Weber as responsible for AlpCare Plus.
