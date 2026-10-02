@@ -18,7 +18,7 @@
   - Better customer relations – improve CR with our customers, especially after service incidents.
   - Increase of service business sales – grow the TO and DB of the service business.
   - Service backbone – the processes, systems and people the ASU needs to run service processes more efficiently.
-- **Terminology and abbreviations:** CR = Customer Relation, TO = Turnover, DB = Gross Margin, ASU = Alpstein Service Unit
+- **Terminology and abbreviations:** CR = Customer Relation, TO = Turnover, DB = Gross Margin, ASU = Alpstein Service Unit, AlpPick = our picking robot (AlpPick 2.0 = new generation), AlpCare = our service subscription (AlpCare Plus = variant with guaranteed response time), AlpMind = our fleet software
 - **People and organizations that appear often:**
   - Dr. Lea Brunner – CEO
   - Marco Steiner – CFO
